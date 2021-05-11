@@ -380,7 +380,7 @@ text-align: center;
                                					<li><a href="">About</a></li>
                                					<li><a href="">Career</a></li>
                                					
-				                                          <button class="btn btn-primary" style="width: 105px;height: 50px; border-radius: 8px;margin-top: 5px;"><a href="" style="color: white;" >SigIn</a>/<a href="" style="color: white;">SigIn</a></button>
+				                                          <button onclick="Myfunction" class="btn btn-primary" style="width: 105px;height: 50px; border-radius: 8px;margin-top: 5px;"><a href="main/index.html" style="color: white;" >SigIn</a>/<a href="" style="color: white;">SigUp</a></button>
 												<li></li>
 				                              
                                            </ul>
@@ -646,7 +646,7 @@ text-align: center;
 							                                       <li><a href=""> Home</a></li>
 							                                       <li><a href="">About</a></li>
 							                                       <li><a href="">Services</a></li>
-							                                       <li><a href="">SigIn</a>/<a href="">SigIn</a></li>
+							                                       <li><a href="main/index.html">SigIn</a>/<a href="">SigUp</a></li>
 							                                  </ul>
 						                     	</div>
 						                    </div>
@@ -690,6 +690,13 @@ text-align: center;
 
 		                   
 
+							 <script>
+								document.getElementById("myBtn").addEventListener("click", displayDate);
+								
+								function displayDate() {
+								  document.getElementById("demo").innerHTML = Date();
+								}
+								</script>
 
 </body>
 </html>
