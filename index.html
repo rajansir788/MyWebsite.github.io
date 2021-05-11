@@ -1,0 +1,695 @@
+<!-- Name-Rajan Kumar
+	Email Id-rajansir788@gmail.com
+	Contact No-7888734078 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<style type="text/css">
+		*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	justify-content: center;
+}
+
+.banner-title h2
+{
+      margin-top: 100px;
+      color: white;
+      font-size: 50px;
+      line-height: 50px;
+      
+}
+.banner-title p.lead
+{
+      color: white;
+      padding: 10px;
+      padding-bottom: 70px;
+}
+                               
+
+/*banner end*/
+h1
+{
+	font-family: 'pacifico', cursive;
+	font-size: 70px;
+    z-index: 5;
+    line-height: 100px;
+    margin: 10px 50px;
+	padding-right: 700px;
+}
+#pic
+{
+	background: #000 url("https://images.unsplash.com/photo-1544006658-89bde88e87c6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8bWFuJTIwY29tcHV0ZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80") ;
+	color: white;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	
+	position: relative;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+}
+.color-overlay
+{
+width: 100%;
+height: 100%;
+ background-color: rgba(11, 21, 77,0.6);
+position: absolute;
+left: 0px;
+}
+                                  
+
+header
+		{
+			
+			max-width: 1200px;
+			margin: 10px auto;
+			padding: 10px;
+      box-sizing: border-box;
+       z-index: 1;
+ }
+
+		.logo
+		{
+			color: black;
+			font-size: 30px;
+			box-sizing: border-box;
+			float: left;
+			text-align: center;
+			line-height: 60px;
+			padding: 0 20px;
+			font-weight: 700;
+			text-decoration: none;
+            z-index: 1;
+		}
+                                                                  nav
+                                                                 {
+                                                                 	float: right;
+                                                                 	 z-index: 1;
+
+                                                                 }
+                                                                 .clearfix
+                                                                 {
+                                                                 	clear:both;
+                                                                 }
+                                                                 nav ul
+                                                                 {
+                                                                      margin: 0;
+                                                                      padding: 0;
+                                                                      z-index: 1;
+                                                                      display: flex;
+                                                                 }
+                                                                 nav ul li 
+                                                                 {
+                                                                 	list-style-type: none;
+                                                                 	z-index: 1;
+                                                                 }
+                                                                nav ul li a
+                                                                 {
+                                                                     margin: 10px 0;
+                                                                      padding: 10px 20px;
+                                                                      display: block;
+                                                                      text-decoration: none;
+                                                                      color: white;
+                                                                      z-index: 1;
+                                                                 }
+                                                                 nav ul li a.active,
+                                                                 nav ul li a:hover
+                                                                 {
+                                                                      color: cyan;
+                                                                      background-color: rgba(11, 21, 77,0.8);
+                                                                      transition: 0.5s;
+                                                                 }
+                                                                 @media (max-width: 768px)
+                                                                 {
+
+																										      h1
+																										{
+																											font-family: 'pacifico', cursive;
+																											font-size: 50px;
+																										    z-index: 5;
+																										    line-height: 100px;
+																										    
+																										}
+                                                                 	.menu-toggle
+                                                                 	{
+                                                                        margin: 20px;
+                                                                        display: block;
+                                                                	 width: 40px;
+                                                                		height: 40px;		
+                                                                	 float: right;
+                                                                	  color: white;
+                                                                	  cursor: pointer;
+                                                                     font-size: 30px;
+                                                                	text-align: center;
+                                                                	 z-index: 1;
+                                                                 	}
+                                                                 	.menu-toggle:before
+                                                                 	{
+                                                                 		content: '\f0c9';
+                                                                 		font-family: fontAwesome;
+                                                                 		line-height: 40px;
+                                                                 		 z-index: 1;
+                                                                 	}
+
+                                                                 	.menu-toggle.active:before
+                                                                 	{
+                                                                 		content: '\f00d';
+                                                                 		z-index: 1;
+                                                                 	}
+                                                                 	nav
+                                                                 	{
+                                                                 		display: none;
+                                                                 		z-index: 1;
+                                                                 	}
+                                                                 	nav.active
+                                                                 	{
+                                                                 		display: block;
+                                                                 		width: 100%;
+                                                                 	}
+                                                                 	nav.active ul
+                                                                 	{
+                                                                 		display: block;
+                                                                 		background-color: white;
+                                                                 		z-index: 1;
+                                                                 	}
+                                                                 	nav.active ul li a
+                                                                 	{
+                                                                 		margin: 0px;
+                                                                        color: black;
+                                                                        z-index: 1;
+                                                                 	}
+                                                                 	
+                                                                		 	 .menu-toggle i
+                                                                		  {
+                                                                		  display: block;
+                                                                		  position: relative;
+                                                                		  bottom: 100px;
+                                                                		  left: 60px;
+                                                                          z-index: 1;
+                                                                		  }
+                                                                		 
+                                                                 }
+                                                     /*menu end*/
+
+ /*service box start*/    
+.card-body
+{
+  text-align: left;
+  padding: 10px;
+  overflow: hidden;
+}
+.card i.fa
+{
+	margin: 30px;
+	font-size: 70px;
+	color: #7158e2;
+}
+.card
+{
+	height: 400px;
+}
+
+.service-box i.fa
+{
+color: #2b68d9;
+font-size: 60px;
+margin-top: 30px;
+text-align: center;
+}
+
+.service-box h3
+{
+  text-align: left;
+  padding: 10px;
+}
+#box2
+{
+	width: 100%;
+	height: auto;
+	
+	
+}
+
+.section
+{
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+}
+#section/* for footer */
+{
+      padding-top: 50px;
+      padding-bottom: 50px;
+      text-align: center;
+}
+#sectionn /* for footer */
+{
+      padding: 20px;
+      padding-top: 50px;
+}
+
+.section h2.section-head
+{
+      color: black;
+      text-align: center;
+      margin-bottom: 40px;
+}
+
+/*service box end*/
+
+              /*footer */
+                .footer 
+                {
+                    background-color: #40407a;
+                      padding: 20px 0;
+                      color: white;
+                      padding-top: 60px;
+                }
+
+                .footer-widget a
+                {
+                      color: white;
+                     
+                }
+                .footer-widget i.fa 
+                {
+                      font-size: 20px;
+                      color: white;
+                }
+                .footer-widget ul li
+                {
+                      list-style-type: none;
+                      margin-bottom: 5px;
+
+                }
+                 li a
+                {
+                  text-decoration: none;
+                }
+                /*footer end*/
+ 
+}
+@media(max-width: 768px)
+{
+     
+      .banner-title h1 
+      {
+      	 color: white;
+      font-size: 18px;
+      
+      text-align: center;
+      
+}
+.banner-title p.lead
+{
+      color: #fff;
+      padding: 10px;
+}
+      
+      .service-box
+      {
+            padding: 20px;
+      }
+     
+      .footer-widget
+      {
+            padding: 20px;
+      }
+     
+      #logo
+      {
+            text-align: center;
+            margin: 10px 0;
+      }
+      #menu
+      {
+            float: left;
+            text-align: center;
+    }
+    .banner-title button
+    {
+      background-color: white;
+    }
+    .section
+    {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .banner-title h1
+
+    {
+    font-size: 1.7rem;
+    }
+    #menu li
+    {
+     align-items: center; 
+    }
+}
+
+
+	</style>
+
+</head>
+<body>
+         <div class="container-fluid" id="pic">
+         	<h1>RAJAN SINGH</h1>
+         	<div class="color-overlay">
+         
+
+
+        		  <div id="header">
+               <header>
+                        
+                        	<div class="menu-toggle"></div>
+                        		     <nav>
+                               				<ul>
+                               					<li><a href="Homepage.html" class="active">Home</a></li>
+                               					<li><a href="service page.html">Services</a></li>
+                               					<li><a href="blog page.html">Blog</a></li>
+                               					<li><a href="">About</a></li>
+                               					<li><a href="">Career</a></li>
+                               					
+				                                          <button class="btn btn-primary" style="width: 105px;height: 50px; border-radius: 8px;margin-top: 5px;"><a href="" style="color: white;" >SigIn</a>/<a href="" style="color: white;">SigIn</a></button>
+												<li></li>
+				                              
+                                           </ul>
+                         		   	</nav>
+                         		   	<div class="clearfix"></div>
+              </header>
+                                                                 <script src="https://code.jquery.com/jquery-3.6.0.js"
+                                                                    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+                                                                    crossorigin="anonymous">
+                                                                  </script>
+                                                             <script type="text/javascript">
+                                                                   	$(document).ready(function()
+                                                                   	{
+                                                                   		$('.menu-toggle').click(function()
+                                                                   		{
+                                                                   			$('.menu-toggle').toggleClass('active')
+                                                                   			$('nav').toggleClass('active')
+                                                                   		})
+                                                                   	})
+                                                             </script>
+                       </div><!-- header -->
+                
+           <!-- header part end -->
+
+
+              <!-- header heading start -->
+             
+                      <div id="banner" class="py-5">
+                            <!-- container part -->
+                            <div class="container">
+                                  <div class="row">
+                                        <div class="col-md-12">
+                                             <div class="banner-title">
+                                                    <h2 class="title">YOUR DIGITAL <br>PRESENCE PARTNER</h2>
+                                                    <p class="lead">Growing your brand with us will be the best part of your journey!
+                                                        </p>
+
+                                                        <div class="col-12">
+                                    <div class="banner-title">
+                                          <button class="btn btn-primary" style="padding: 10px; width: 200px; border-radius: 10px; margin-top: 50px; margin-left: 60px;">Contact</button>
+                                  </div>
+                              </div>
+                                            </div>
+                                        </div>
+                                  </div><!-- row end -->
+                            </div><!-- container end -->
+                      </div><!-- header heading end -->
+                  </div><!-- color-overlay end -->
+                  </div><!-- container-fluid id pic  end -->
+
+
+           <!-- section 2nd container -->
+                <div class="container section">
+                      <div class="row">
+                             <div class="col-md-12">
+                                                     <h2 class="section-head">How can we help you?</h2>
+                             </div>
+                              <div class="col-md-12" style="text-align: center;">
+                                                     <p style="padding-bottom: 70px;">Rajan Sir believes in creating success stories for clients by a <br> committed  goal for your Advancement, Growth And Success.</p>
+                              </div>
+
+			                  <div class="col-md-4">
+			         			   <div class="card text-center" style="margin-bottom: 50px;">
+			         				                 <i class="fa fa-pie-chart" aria-hidden="true"></i>
+			         				 <div class="card-body">
+			         				             	<h4 class="card-title"><b>SEO</b></h4>
+			         				     	         <p class="card-text">Multiply Your Organic Traffic With A Highly Targeted SEO Strategy We work on Startup SEO,   E-Commerce SEO, Enterprise SEO, Local, National, and Global SEO.</p>
+			         				 </div>
+			         			 </div>
+			         		</div>
+
+         			       <div class="col-md-4">
+         		                	<div class="card text-center" style="margin-bottom: 50px;">
+         				                  <i class="fa fa-television" aria-hidden="true"></i>
+							         		 <div class="card-body">
+							         				 	<h4 class="card-title"><b>Web Development</b></h4>
+							         				 	<p class="card-text">Your business is unique and we believe your website should be too! We create websites that work! From design-led static websites to full Content Management System, we have all the skills to make your site look good and deliver.</p>
+							         	   </div>
+         			                 </div>
+         		        </div>
+
+         			    <div class="col-md-4">
+			         			<div class="card text-center" style="margin-bottom: 50px;">
+			         									<i class="fa fa-modx" aria-hidden="true"></i>
+			         				 <div class="card-body">
+							         				 	<h4 class="card-title"><b>Mobile App Development</b></h4>
+							         				 	<p class="card-text">Flexible user-friendly apps are developed to provide a good user experience. We strive to provide custom mobile applications, rich in features that would completely meet your business goals along with satisfying the needs of your target audience.</p>
+			         				 </div>
+			         			</div>
+         			  </div>
+
+         			    <div class="col-md-4">
+         			          <div class="card text-center" style="margin-bottom: 50px;">
+         				                                <i class="fa fa-diamond fa-4x" aria-hidden="true"></i>
+         				          <div class="card-body">
+							         				 	<h4 class="card-title"><b>Social Media</b></h4>
+							         				 	<p class="card-text">Social Media Optimization creates a pool of customers for your business by converting the potential prospects into regular clients. We promote your brands on social media platforms like Vimeo, Digg, Pinterest, Facebook, LinkedIn, Instagram, Twitter, etc.</p>
+         				          </div>
+         			          </div>
+         			  </div>
+
+         			    <div class="col-md-4">
+         			          <div class="card text-center" style="margin-bottom: 50px;">
+         			                            	 <i class="fa fa-diamond fa-4x" aria-hidden="true"></i>
+         			        	 <div class="card-body">
+						         				 	<h4 class="card-title"><b>eCommerce</b></h4>
+						         				 	<p class="card-text">To be successful, brands need to provide consistent, unique, fulfilling, and personalized experience to its customer which is possible with fully managed End-to-End eCommerce Solutions, we at Rajan provide the best e-Commerce website designing and maintenance services.</p>
+         				         </div>
+         		       	</div>
+         			</div>
+
+         			    <div class="col-md-4">
+         		                 	<div class="card text-center" style="margin-bottom: 50px;">
+         				                      <i class="fa fa-diamond fa-4x" aria-hidden="true"></i>
+				         			 <div class="card-body">
+				         				 	<h4 class="card-title"><b>Film Production</b></h4>
+				         				 	<p class="card-text">Rajan expertise in Video Production, Short Film Making, Photography and Communication Design. It is one-stop solution for everything related to the art of storytelling.</p>
+				         			 </div>
+         			              </div>
+         		     	</div>
+
+                          
+                          </div><!-- row end-->
+                    </div><!-- container end-->
+              
+              <!-- service box end-->
+
+                <div class="container section">
+			                    <div class="row">
+			                                <div class="col-md-12">
+			                                  <h2 class="section-head">Portfolio</h2>
+			                                </div>
+			                               <div class="col-md-12" style="text-align: center;">
+			                                <p style="padding-bottom: 50px;">We are Rajan, a creative team of individuals who are focused on providing creative services to those in need.</p>
+			                                </div>
+
+			                          <div class="col-6 col-md-3">
+			                          	       <img src="https://images.unsplash.com/photo-1487611459768-bd414656ea10?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8cGVvcGxlJTIwd2 9ya2luZyUyMG9uJTIwbGFwdG9wfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80" style="width: 100%; height: auto; margin: 20px;">
+			                          </div>
+			                          <div class=" col-6 col-md-3">
+			                          	       <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzB8fHBlb3BsZSUyMHdvcmtpbmclMjBvbiUyMGxhcHRvcHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" style="width: 100%; height: auto;  margin: 20px;">
+			                          </div>
+			                          <div class=" col-6 col-md-3">
+			                          	      <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzZ8fHBlb3BsZSUyMHdvcmtpbmclMjBvbiUyMGxhcHRvcHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" style="width: 100%; height: auto;  margin: 20px;">
+			                          </div>
+
+			                          <div class="col-6 col-md-3">
+			                          	      <img src="https://image.freepik.com/free-photo/laptop-table-office-room-background-graphics-display-montage_2034-614.jpg" style="width: 100%; height: auto;  margin: 20px;">
+			                          </div>
+			                      </div><!--row-->
+			                  </div><!--container-->
+                  <!-- portfolio end -->
+
+                    <div class="col-md-12" style="text-align: center;">
+                               <button class="btn btn-primary" style="padding: 10px; width: 200px; border-radius: 10px; cursor: pointer;">EXPLORE MORE</button>
+                          </div>
+
+                      <!-- customers -->
+                           <div class="container section">
+		                    <div class="row">
+				                    <div class="col-md-12">
+				                                  <h2 class="section-head"><b>Our Customers</b></h2>
+				                            </div>
+		                            <div class="col-md-12" style="text-align: center;">
+		                                        <p style="padding-bottom: 70px;">We have a number of customer-centric formulas that can help plan accelerated and consistent growth, here a few of our clients we’ve helped grow. </p>
+		                            </div>
+
+		                            <div class=" col-6 col-md-3">
+                                        	       <img src="https://images.creativemarket.com/0.1.0/ps/5970679/1820/1214/m1/fpnw/wm1/3d-realistic-logo-mock-up-copy-0-.png?1551412724&s=6b5b2799d667bdf1ec3249d311919aa8" style="width: 100%; height: auto; margin: 20px;">
+                                   </div>
+                                     <div class=" col-6 col-md-3">
+                                       	           <img src="https://www.aabhishek.com/wp-content/uploads/2020/01/Paper-Manufacturar-and-Exporter-Logo-Logo-for-Paper-Company-Logo-Design-Service-Vadodara-india.jpg" style="width: 100%; height: auto;  margin: 20px;">
+                                    </div>
+			                          <div class=" col-6 col-md-3">
+			                          	            <img src="https://jubilantdigital.com/wp-content/uploads/2018/01/logoPNG-2018.png" style="width: 100%; height: auto;  margin: 20px;">
+			                          </div>
+
+			                          <div class=" col-6 col-md-3">
+	                          						<img src="http://www.logo-designer.co/wp-content/uploads/2016/11/2016-fluent-logo-design-digital-marketing-20nine.png" style="width: 100%; height: auto;  margin: 20px;">
+			                          </div>
+		                      </div><!-- row -->
+                       </div><!-- container -->
+                      
+                 <!--  Amazing Designs start-->
+                   <div class="container section">
+		                    <div class="row card shadow">
+					                            <div class="col-md-12">
+					                                <h2 class="section-head" style="padding-top: 50px;"><b>"Amazing Designs and Quality Work!"</b></h2>
+					                            </div>
+					                            <div class="col-md-12" style="text-align: center;">
+					                                    <p>Rajan is a place where brands come and be a part of a journey which takes them to the heights of digital visibility. </p>
+					                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Rubio_Circle.png/1023px-Rubio_Circle.png" style="height: 100px; width: 100px;">
+			                                            <div class="author">Raghuram</div>
+			                                            <div class="author-company">FOUNDER & CEO</div>
+					                           </div>
+		                      </div>
+		                  </div>
+<!-- Rajan Sir Family -->
+		                   <div class="container section">
+		                    <div class="row">
+					                            <div class="col-md-12">
+					                                   <h2 class="section-head"><b>Rajan Sir Family</b></h2>
+					                            </div>
+					                              <div class="col-md-12" style="text-align: center;">
+					                                   <p>Our expert team members are already here for your Service</p>
+					                            </div>
+		                              <div class=" col-sm-6 col-md-4">
+							                          	<img src="https://thumbs.dreamstime.com/b/confident-vietnamese-businessman-portrait-his-colleagues-background-44216858.jpg" style="width: 100%; height: auto; margin: 20px;">
+							                          	<h3 style="text-align: center;">Gaurav</h3>
+							                          	<p style="text-align: center;">Web Developer</p>
+                                      </div>
+				                      <div class=" col-sm-6 col-md-4">
+							                          	<img src="https://thumbs.dreamstime.com/b/satisfied-office-employee-looking-camera-thumbs-up-you-108222007.jpg" style="width: 100%; height: auto;  margin: 20px;">
+							                          	<h3 style="text-align: center;">Raushan</h3>
+							                          	<p style="text-align: center;">Founder & CEO</p>
+				                      </div>
+			                          <div class=" col-sm-6 col-md-4">
+							                          	<img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVzaW5lc3NtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80" style="width: 100%; height: auto;  margin: 20px;">
+							                          
+							                            <h3 style="text-align: center;">Raja</h3>
+							                          	<p style="text-align: center;">Graphic Designer</p>
+			                          	</div>
+                          </div>
+                      </div><!-- team member end -->
+		                     
+
+
+                      <!-- 2nd card box start -->
+		                     
+                       <div class="container section">
+		                    <div class="row card shadow" style="height: 60%; width: 80%; margin-left: 10%;">
+			                         	 <div class="col-md-12">
+				                                <h2 style="padding-top:50px; text-align: center;"><b>Would you like to start a project with us?</b></h2>
+				                                <p style="text-align: center;">Our prime objective is to challenge the conventional ways of marketing and foster a belief that leads to exponential growth. That’s why Rajan employs. </p>
+			                           	 </div>
+
+		                             
+		                      		 	 <div class="col-12 m-auto" id="number">
+		                                	   <a href="" style="background-color: blue; border-radius: 10px; padding: 10px; color: white; text-decoration: none; line-height: 80px; margin-left: 30%;">+91-7888734078</a>
+		                                </div>
+
+
+						   </div><!-- row -->
+						</div><!-- container -->
+                          <!-- 2nd card box end -->
+
+		                     
+						 <!-- footer part start -->
+		              <div class="footer">
+		                     <div class="container">
+		                     	<div class="row">
+					                        <div class=" col-12 col-md-3">
+					                     	     <div class="footer-widget">
+					                     			<h3><b>Rajan<br>Sir</b></h3>
+					                     			<p>Rajan Sir believes in creating success stories for clients by a committed goal for your Advancement, Growth And Success.</p>
+					                     		</div>
+					                     	</div>
+
+						                    <div class="col-6 col-md-3">
+						                        <div class="footer-widget">
+						                     			<h3><b>Company</b></h3>
+									                           	<ul>
+							                                       <li><a href=""> Home</a></li>
+							                                       <li><a href="">About</a></li>
+							                                       <li><a href="">Services</a></li>
+							                                       <li><a href="">SigIn</a>/<a href="">SigIn</a></li>
+							                                  </ul>
+						                     	</div>
+						                    </div>
+				                     		<div class=" col-6 col-md-3">
+				                     			<div class="footer-widget">
+				                     			       <h3><b>Business</b></h3>
+									                     			
+									                     	   <ul>
+							                                       <li><a href="">Project</a></li>
+							                                       <li><a href="">Our Team</a></li>
+							                                       <li><a href="">Blog</a></li>
+							                                       <li><a href="">Customers</a></li>
+							                                  </ul>
+				                     		   </div>
+				                           </div>
+				                     		<div class=" col-12 col-md-3">
+				                     			 <div class="footer-widget">
+						                     			<h3><b>Get In Touch</b></h3>
+						                     			<p> <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;Noida sec-15, Pin-201301</p>
+
+				                     			        <p><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp; &nbsp; &nbsp;rajansir788@gmail.com</p>
+				                     			        <p> <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;  &nbsp; &nbsp;&nbsp;  +91-7888734078</p>
+				                     		  </div><br><br>
+				                          </div><hr>
+
+		                   <div>
+					              <div class="container-fluid">
+					                    <div class="row">
+					                          <div class="col-md-12" style="background-color:#40407a; color: white; font-size: 15px;">
+					                               Copyright © 2021 Rajan Sir | Powered by Rajan Sir.
+					                          </div>
+					                         
+					                    </div>
+					              </div>
+                        </div>
+                       <!--id footer  -->
+		                     	</div><!--row-->
+		                     	</div><!--container-->
+		                     
+		                     </div><!--class footer part end-->
+
+		                   
+
+
+</body>
+</html>
